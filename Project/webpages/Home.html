@@ -1,0 +1,130 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="en-us" http-equiv="Content-Language" />
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>Gamers Hub</title>
+<style type="text/css">
+.auto-style1 {
+	text-align: center;
+	color: #FFFFFF;
+}
+.auto-style2 {
+	font-family: Chiller;
+	font-size: 50pt;
+}
+.auto-style3 {
+	text-align: center;
+}
+.auto-style6 {
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 18pt;
+}
+.auto-style8 {
+	font-size: 18pt;
+	font-family: Chiller;
+}
+</style>
+</head>
+
+<body style="background-image: url('back.jpg')">
+
+<h1 class="auto-style1"><span class="auto-style2">Gamers Hub</span> </h1>
+<h2 class="auto-style10">The ultimate website for gaming recommendations!!</h2>
+<p class="auto-style1"><span class="auto-style8">Introducing Gamers Hub, the 
+ultimate gaming website for all younr gaming needs. Gamers Hub is a virtual 
+haven for young gamers, offering a wide range of feature, information and 
+entertainment to keep you engaged and informed about the exciting world of vidoe 
+games </span><br class="auto-style8" />
+<br class="auto-style8" />
+<span class="auto-style8">At Gamers Hub, we understand the passion and 
+enthusiasm that gamers have for their favourite hobby. That's why we have 
+curated a comprehensive collection of gaming news, reviews, previews and 
+features to keep you updated with the latest things in the gaming world. Whether 
+you're interested in the hottest uocoming releases, gaming trends or in-depth 
+analysis, our team of dedicated writers and experts have got you covered.</span></p>
+<h4 class="auto-style3">&nbsp;<span class="auto-style8">&nbsp;&nbsp; </span>
+<span class="auto-style11">Choose the category of your choice:</span></h4>
+<ol>
+	<li>
+	<p class="auto-style10"><a href="Action.html" target="_self">
+	<span class="auto-style12">Action</span></a></p>
+	</li>
+	<li>
+	<p class="auto-style6"><a href="Sports.html" target="_self">
+	<span class="auto-style9">Sports</span></a></p>
+	</li>
+	<li>
+	<p class="auto-style6"><a href="Race.html" target="_self">
+	<span class="auto-style9">Racing</span></a></p>
+	</li>
+</ol>
+
+
+<style>
+    /* Styling for the slider container */
+    .slider-container {
+      width: 600px;
+      height: 400px;
+      overflow: hidden;
+      margin: 0 auto; /* Center align the slider container */
+    }
+
+    /* Styling for the slider images */
+    .slider-image {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  .auto-style9 {
+	color: #FFFFFF;
+	font-family: Chiller;
+}
+.auto-style10 {
+	text-align: center;
+	color: #FFFFFF;
+	font-family: Chiller;
+	font-size: 19pt;
+}
+.auto-style11 {
+	color: #FFFFFF;
+	font-family: Chiller;
+	font-size: 19pt;
+}
+.auto-style12 {
+	color: #FFFFFF;
+}
+  </style>
+
+<div class="slider-container">
+    <img class="slider-image" src="image1.jpg" alt="Image 1">
+  </div>
+
+<script>
+    var images = [
+      "image1.jpg",
+      "image2.jpg",
+      "image3.jpg"
+    ];
+
+    var currentSlide = 0;
+    var sliderImage = document.querySelector(".slider-image");
+    function showSlide() {
+      sliderImage.src = images[currentSlide];
+    }
+    function nextSlide() {
+      currentSlide++;
+      if (currentSlide >= images.length) {
+        currentSlide = 0;
+      }
+      showSlide();
+    }
+    setInterval(nextSlide, 4000);
+    showSlide();
+  </script>
+  
+</body>
+
+</html>

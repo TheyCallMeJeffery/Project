@@ -1,0 +1,149 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="en-us" http-equiv="Content-Language" />
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>Untitled 1</title>
+<style type="text/css">
+.auto-style1 {
+	color: #FFFFFF;
+	text-align: center;
+	background-color: #000000;
+	font-family: Chiller;
+}
+.auto-style2 {
+	color: #FFFFFF;
+	font-family: Sa;
+	font-size: 18pt;
+	text-align: center;
+	background-color: #000000;
+}
+.auto-style3 {
+	color: #FFFFFF;
+}
+</style>
+</head>
+<link rel=""stylesheet" href="action.css">
+<body style="background-image: url('actionback.jpg')">
+  <button onclick="redirectToHome()">Home</button>
+
+  <script>
+    function redirectToHome() {
+      window.location.href = "Home.html";
+    }
+  </script>
+   
+<h1 class="auto-style1">The Top Rated Action Games at The Moment:</h1>
+<ul>
+	<li class="auto-style2">
+	<a href="https://www.playstation.com/en-pl/games/god-of-war-ragnarok/">
+	<span class="auto-style3">God of War</span></a><span class="auto-style16">
+	</span> </li>
+	<li class="auto-style2"><a href="https://www.fortnite.com/">
+	<span class="auto-style3">Fortnite</span></a></li>
+	<li class="auto-style2">
+	<a href="https://www.rockstargames.com/reddeadredemption2/">
+	<span class="auto-style3">Red Dead Redeption 2 </span></a> </li>
+	<li class="auto-style2">
+	<a href="https://en.bandainamcoent.eu/elden-ring/elden-ring">
+	<span class="auto-style3">Elden Ring</span></a></li>
+	<li class="auto-style2">
+	<a href="https://store.steampowered.com/app/1817070/Marvels_SpiderMan_Remastered/">
+	<span class="auto-style3">Marvels Spider-Man</span></a></li>
+	<li class="auto-style2">
+	<a href="https://www.playstation.com/en-pl/games/devil-may-cry-5/">
+	<span class="auto-style3">Devil May Cry 5</span></a></li>
+	<li class="auto-style2">
+	<a href="https://www.playstation.com/en-pl/games/the-last-of-us-part-ii/">
+	<span class="auto-style3">The Last of Us: Part II</span></a></li>
+	<li class="auto-style2"><a href="https://www.rockstargames.com/gta-v">
+	<span class="auto-style3">GTA V</span></a></li>
+	<li class="auto-style2">
+	<a href="https://store.steampowered.com/app/1817190/Marvels_SpiderMan_Miles_Morales/">
+	<span class="auto-style3">Marvels Spider-Man: Miles Morales</span></a></li>
+	<li class="auto-style2">
+	<a href="https://www.ubisoft.com/en-gb/game/assassins-creed/valhalla">
+	<span class="auto-style3">Assassins Creed Valhalla</span></a></li>
+	<li class="auto-style2">
+	<a href="https://www.ubisoft.com/en-gb/game/far-cry/far-cry-6">
+	<span class="auto-style3">Far Cry 6</span></a></li>
+	<li class="auto-style2">
+	<a href="https://www.playstation.com/en-pl/games/uncharted-4-a-thiefs-end/">
+	<span class="auto-style3">Uncharted&nbsp; 4: A Thief's End</span></a></li>
+	<li class="auto-style2"><a href="https://www.callofduty.com/modernwarfare2">
+	<span class="auto-style3">Call Of Duty: Modern Warfare 2</span></a></li>
+	<li class="auto-style2"><a href="https://www.residentevil.com/4/">
+	<span class="auto-style3">Resident Evil 4</span></a></li>
+	<li class="auto-style2"><a href="https://mk11.mortalkombat.com/">
+	<span class="auto-style3">Mortal Kombat 11</span></a></li>
+</ul>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+&nbsp;
+
+<style>
+    .slider-container {
+      width: 600px;
+      height: 400px;
+      overflow: hidden;
+      margin: 0 auto;     }
+    .slider-image {
+      width: 80%;
+      height: 80%;
+      object-fit: fit;
+    }
+  .auto-style13 {
+	width: 600px;
+	height: 400px;
+	overflow: hidden;
+	margin: 0 auto;
+	text-align: center;
+}
+  .auto-style14 {
+	text-align: right;
+}
+  .auto-style15 {
+	color: #FFFFFF;
+	background-color: #000000;
+}
+.auto-style16 {
+	font-family: Chiller;
+}
+  </style>
+
+<div class="auto-style13">
+    <img class="slider-image" src=".jpg" alt="God Of War">
+  </div>
+
+ <script>
+    var images = [
+      "GOW.jpg",
+      "Far.jpg",
+      "Fort.jpg",
+      "GTA.jpg"
+    ];
+
+    var currentSlide = 0;
+    var sliderImage = document.querySelector(".slider-image");
+    function showSlide() {
+      sliderImage.src = images[currentSlide];
+    }
+    function nextSlide() {
+      currentSlide++;
+      if (currentSlide >= images.length) {
+        currentSlide = 0;
+      }
+      showSlide();
+    }
+    setInterval(nextSlide, 4000);
+    showSlide();
+  </script>
+
+<p>&nbsp;</p>
+
+</body>
+
+</html>

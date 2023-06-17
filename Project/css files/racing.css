@@ -1,0 +1,31 @@
+﻿<style>
+    .slider-container {
+      width: 600px;
+      height: 400px;
+      overflow: hidden;
+      margin: 0 auto; 
+    }
+    .slider-image {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  .auto-style9 {
+	color: #FFFFFF;
+	font-family: Chiller;
+}
+.auto-style10 {
+	text-align: center;
+	color: #FFFFFF;
+	font-family: Chiller;
+	font-size: 19pt;
+}
+.auto-style11 {
+	color: #FFFFFF;
+	font-family: Chiller;
+	font-size: 19pt;
+}
+.auto-style12 {
+	color: #FFFFFF;
+}
+</style>
